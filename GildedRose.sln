@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{854CEE3C-DF80-4B0D-8932-9886F9879821}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Core", "GildedRose.Core\GildedRose.Core.csproj", "{021D6A1D-51B9-4220-8AD6-7072366946C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Core.Specs", "GildedRose.Core.Specs\GildedRose.Core.Specs.csproj", "{820FBC3B-A790-4AA3-B032-F45A90CED365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{021D6A1D-51B9-4220-8AD6-7072366946C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021D6A1D-51B9-4220-8AD6-7072366946C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021D6A1D-51B9-4220-8AD6-7072366946C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021D6A1D-51B9-4220-8AD6-7072366946C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820FBC3B-A790-4AA3-B032-F45A90CED365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820FBC3B-A790-4AA3-B032-F45A90CED365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820FBC3B-A790-4AA3-B032-F45A90CED365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820FBC3B-A790-4AA3-B032-F45A90CED365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
