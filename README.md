@@ -1,6 +1,7 @@
 # Prerequisites
-* Visual Studio 2022, [Jetbrains Rider](https://www.jetbrains.com/rider/) (2022.1.3 or later) or Visual Studio Code with the [C# Extension](https://code.visualstudio.com/docs/languages/dotnet).
 * .NET 6.0.100 SDK or later (can be downloaded [here](https://dotnet.microsoft.com/download/dotnet/6.0))
+* Visual Studio 2022 Community edition or [Jetbrains Rider](https://www.jetbrains.com/rider/) 2022.1.3 (or later) are strongly recommended.
+* Visual Studio Code with the [.NET Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer) works too but is a bit harder to use. 
 
 # Background Story 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We have a system in place that updates our inventory for us. It was developed by a no-nonsense type named Leeroy, who has moved on to new adventures. Your task is to add the new feature to our system so that we can begin selling a new category of items. First an introduction to our system:
