@@ -1,25 +1,21 @@
 using System;
 
-namespace GildedRose
+namespace GildedRose;
+
+public class Item
 {
-    public class Item
+    private string name;
+
+    public Item(string name, int sellIn, int quality)
     {
-        private String name;
-
-        public Item(string name, int sellIn, int quality)
-        {
-            this.name = name;
-            this.Quality = quality;
-            this.SellIn = sellIn;
-        }
-
-        public int SellIn { get; set; }
-
-        public int Quality { get; set; }
-
-        public string Name
-        {
-            get { return name; }
-        }
+        this.name = name;
+        Quality = quality;
+        SellIn = sellIn;
     }
+
+    public int SellIn { get; set; }
+
+    public int Quality { get; set; }
+
+    public string Name => name;
 }
